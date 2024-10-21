@@ -13,7 +13,7 @@ function Hero() {
       {/* Overlay content (text) */}
       <div className="overlay-content">
         <h1 className="hero-title">Welcome to John Doe's Portfolio</h1>
-        <p className="hero-subtitle">Designing the future, one project at a time.</p>
+        <p className="hero-subtitle"> Designing the future, one project at a time.</p>
       </div>
     </div>
   );
