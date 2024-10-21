@@ -1,0 +1,33 @@
+.hero-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .portfolio-section {
+    padding: 4rem 0;
+    background-color: white;
+  }
+  
+  .project {
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+  }
+  

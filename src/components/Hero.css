@@ -1,0 +1,50 @@
+/* The container for both the video and the overlay text */
+.hero-section {
+    position: relative; /* Allows for proper stacking of video and text */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    overflow: hidden; /* Prevents overflow */
+  }
+  
+  /* Ensure the video takes up the full background */
+  .background-video {
+    position: absolute; /* Absolute positioning inside the hero-section */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Ensures video covers the entire section */
+    pointer-events: none; /* Ensures the video doesn't interfere with user interactions */
+  }
+  
+  /* Overlay content that sits on top of the video */
+  .overlay-content {
+    position: relative; /* This ensures the text is positioned inside the hero section */
+    z-index: 1; /* Keeps the text on top of the video */
+    text-align: center; /* Centers the text */
+    color: white;
+  }
+  
+  /* Hero title and subtitle */
+  .hero-title {
+    font-size: 4rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    color: #cccccc;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2.5rem; /* Smaller font size for mobile devices */
+    }
+  
+    .hero-subtitle {
+      font-size: 1rem; /* Smaller font size for mobile devices */
+    }
+  }
+  

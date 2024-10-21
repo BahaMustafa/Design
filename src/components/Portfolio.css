@@ -1,0 +1,40 @@
+/* Portfolio section */
+.portfolio-section {
+    padding: 4rem 2rem;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  /* Projects styling */
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project {
+    margin-bottom: 2rem;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project:hover {
+    transform: scale(1.05); /* Hover effect on projects */
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    .portfolio-section {
+      padding: 2rem 1rem; /* Reduce padding for mobile devices */
+    }
+  
+    .projects {
+      flex-direction: column; /* Stack projects vertically on smaller screens */
+    }
+  }
+  
