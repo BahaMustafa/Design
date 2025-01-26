@@ -8,15 +8,15 @@ function Contact() {
       <form className="contact-form">
         <div className="form-group">
           <label htmlFor="name">Your Name</label>
-          <input type="text" id="name" name="name" required />
+          <input type="text" id="name" name="name" required placeholder='Enter your name'/>
         </div>
         <div className="form-group">
           <label htmlFor="email">Your Email</label>
-          <input type="email" id="email" name="email" required />
+          <input type="email" id="email" name="email" required placeholder='Enter your email'/>
         </div>
         <div className="form-group">
           <label htmlFor="message">Your Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
+          <textarea id="message" name="message" rows="5" required placeholder='Write your message here'></textarea>
         </div>
         <button type="submit">Send Message</button>
       </form>

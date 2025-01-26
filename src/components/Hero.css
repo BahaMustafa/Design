@@ -30,11 +30,12 @@
   /* Hero title and subtitle */
   .hero-title {
     font-size: 4rem;
+    color: rgb(86, 59, 59);
   }
   
   .hero-subtitle {
     font-size: 1.5rem;
-    color: #cccccc;
+    color: #ffffff;
   }
   
   /* Media queries for responsiveness */
