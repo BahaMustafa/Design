@@ -1,5 +1,5 @@
 export default defineConfig({
-  base: '/Design/',
+  base: '/',
   plugins: [react()],
   // ... other config options
 })
