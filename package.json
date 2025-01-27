@@ -2,7 +2,6 @@
   "name": "my-architect-portfolio",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://bostanydesign.com",
   "dependencies": {
     "@react-three/drei": "^9.112.0",
     "@testing-library/jest-dom": "^5.17.0",
