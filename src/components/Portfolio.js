@@ -29,11 +29,11 @@ function Portfolio() {
       <h2>My Work</h2>
       <div className="projects">
         <div className="project-1">
-          <img src="project1.jpg" alt="Project 1" />
+          <p>Project 1</p>
           <p>Modern Residential Design</p>
         </div>
         <div className="project-2">
-          <img src="project2.jpg" alt="Project 2" />
+          <p>Project 2</p>
           <p>Commercial Building Design</p>
         </div>
       </div>
