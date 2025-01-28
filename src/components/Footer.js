@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <p>&copy; {new Date().getFullYear()} Bostany Design. All Rights Reserved.</p>
         <a href="https://techdevprime.com/" target="_blank" rel="noopener noreferrer">
-          Designed and Developed by techdevprime.com
+          Designed and Developed by techdevprime.com 2025
         </a>
       </div>
     </footer>
