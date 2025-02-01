@@ -2,7 +2,7 @@
   "name": "my-architect-portfolio",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://bahamustafa.github.io/Design",
+  "homepage": "https://www.bostanydesign.com",
   "dependencies": {
     "@react-three/drei": "^9.112.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -24,5 +24,17 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
