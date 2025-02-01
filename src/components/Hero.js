@@ -6,7 +6,7 @@ function Hero() {
     <div className="hero-section">
       {/* Video Background */}
       <video className="background-video" autoPlay loop muted playsInline>
-        <source src="https://github.com/BahaMustafa/Design/blob/main/public/vecteezy_fiber-optic-cables-carrying-information-toward-glowing_2850201.mp4" type="video/mp4" />
+        <source src="https://videos.pexels.com/video-files/4457865/4457865-uhd_2560_1440_24fps.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
