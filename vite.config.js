@@ -3,5 +3,10 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "/", // Change this if your site is in a subdirectory
+  base: '',  // Empty string for root path
+  build: {
+    outDir: 'build',
+    assetsDir: 'assets',
+    copyPublicDir: true,
+  }
 });
