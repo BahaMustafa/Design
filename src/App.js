@@ -1,18 +1,34 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Hero from './components/Hero';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import House3DViewer from './components/House3DViewer'; // Import the 3D Viewer component
+import ProjectDetails from './components/ProjectDetails';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Hero />
-      <Portfolio />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Hero />
+              <Portfolio />
+              <Contact />
+              <Footer />
+            </>
+          } />
+          <Route path="/project-details" element={
+            <>
+              <ProjectDetails />
+              <Footer />
+            </>
+          } />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

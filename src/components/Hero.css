@@ -49,3 +49,33 @@
     }
   }
   
+  /* Add these styles to your existing Hero.css file */
+  
+  .logo-container {
+    position: absolute;
+    /* top: 50%; */
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-logo {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+  }
+  
+  /* Make sure the overlay content is positioned below the logo */
+  .overlay-content {
+    position: relative;
+    z-index: 5;
+    margin-top: 220px; /* Adjust based on your logo size */
+  }
+  
