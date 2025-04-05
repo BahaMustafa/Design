@@ -31,20 +31,20 @@ function Portfolio() {
           <div className="project-info">
             <h3>one of the many recent projects</h3>
             <p>click to see what's inside</p>
-            <a href="/project-details" className="view-project">View</a>
+            <a href="#/project-details" className="view-project">View</a>
           </div>
           <div className="project-images-grid">
             <div className="project-image">
-              <img src={`${process.env.PUBLIC_URL}/images/52f730aa-4f5c-41a1-aef4-e33d1e75f931.jpg`} alt="Modern Residential Design" />
+              <img src={`./images/52f730aa-4f5c-41a1-aef4-e33d1e75f931.jpg`} alt="Modern Residential Design" />
             </div>
             <div className="project-image">
-              <img src={`${process.env.PUBLIC_URL}/images/6e0fc1e3-9753-4ea2-8981-69e3da8d757d.jpg`} alt="Commercial Building Design" />
+              <img src={`./images/6e0fc1e3-9753-4ea2-8981-69e3da8d757d.jpg`} alt="Commercial Building Design" />
             </div>
             <div className="project-image">
-              <img src={`${process.env.PUBLIC_URL}/images/2f9cfd7d-4893-4f88-8639-412225b96fa1.jpg`} alt="Urban Planning Project" />
+              <img src={`./images/2f9cfd7d-4893-4f88-8639-412225b96fa1.jpg`} alt="Urban Planning Project" />
             </div>
             <div className="project-image">
-              <img src={`${process.env.PUBLIC_URL}/images/644207c3-8f60-4152-a18c-d5a5c4e01474.jpg`} alt="Urban Planning Project" />
+              <img src={`./images/644207c3-8f60-4152-a18c-d5a5c4e01474.jpg`} alt="Urban Planning Project" />
             </div>
           </div>
         </div>
