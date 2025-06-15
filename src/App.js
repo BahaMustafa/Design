@@ -5,7 +5,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ProjectDetails from './components/ProjectDetails';
-import './App.css';
+import CommercialDetails from './components/CommercialDetails';
 
 function App() {
   return (
@@ -23,6 +23,12 @@ function App() {
           <Route path="/project-details" element={
             <>
               <ProjectDetails />
+              <Footer />
+            </>
+          } />
+          <Route path="/commercial-details" element={
+            <>
+              <CommercialDetails />
               <Footer />
             </>
           } />

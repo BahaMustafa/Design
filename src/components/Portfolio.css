@@ -97,6 +97,32 @@
   overflow: hidden;
 }
 
+.category-section {
+  margin-bottom: 3rem;
+}
+
+.category-section h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.placeholder {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  border: 2px  #ccc;
+}
+
+.placeholder-content {
+  color: #666;
+  font-size: 1rem;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .projects {
     grid-template-columns: 1fr;
