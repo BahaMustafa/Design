@@ -159,7 +159,125 @@ function ProjectDetails() {
       src: `https://github.com/BahaMustafa/Design/blob/main/public/images/644207c3-8f60-4152-a18c-d5a5c4e01474.JPG?raw=true`,
       alt: "Final Render",
       fullWidth: false
+    },
+    {
+      id: 27,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-1.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    },
+    {
+      id: 28,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-10.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
     }
+    ,
+    {
+      id: 29,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-11.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    }
+    ,
+    {
+      id: 30,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-12.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    }
+    ,
+    {
+      id: 31,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-13.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    }
+    ,
+    {
+      id: 32,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-14.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    }
+    ,
+    {
+      id: 33,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-15.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    }
+    ,
+    {
+      id: 34,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-16.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    }
+    ,
+    {
+      id: 35,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-17.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    }
+    ,
+    {
+      id: 36,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-2.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    }
+    ,
+    {
+      id: 37,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-3.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    }
+    ,
+    {
+      id: 38,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-4.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    }
+    ,
+    {
+      id: 39,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-5.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    }
+    ,
+    {
+      id: 40,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-6.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    }
+    ,
+    {
+      id: 41,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-7.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    }
+    ,
+    {
+      id: 42,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-8.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    }
+    ,
+    {
+      id: 43,
+      src: `https://github.com/BahaMustafa/Design/blob/main/public/images/lng-9.jpg?raw=true`,
+      alt: "Final Render",
+      fullWidth: false
+    }
+
   ];
 
   return (
